@@ -1,0 +1,96 @@
+.fundo {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+.texto {
+    color: #401217;
+    font-family: serif;
+    font-size: larger;
+    font-style: italic;
+}
+
+.fundo .texto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.fundo .image1 {
+    position: relative;
+    width: 300px;
+    height: 400px;
+}
+
+.image1::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    background-image: url("../tarefa4/download-1--unscreen.gif");
+    top: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.image1::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    background-image: url("../tarefa4/151d3577-de07-44f6-bc46-18e782c56c8c.gif");
+    bottom: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.image2 {
+    position: relative;
+    width: 300px;
+    height: 400px;
+}
+
+.image2::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    background-image: url('../tarefa4/5f2e02c1-5738-408c-8102-21ce68-unscreen.gif');
+    top: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.image2::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    background-image: url('../tarefa4/5b1558d4-4592-459b-8ee0-df8015de05e7.gif');
+    bottom: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+#message {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+}
